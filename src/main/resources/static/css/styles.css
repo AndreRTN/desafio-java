@@ -1,0 +1,47 @@
+/* Toast notification styles */
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #d9534f;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 9999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.toast.success {
+    background-color: #5cb85c;
+}
+
+.toast.error {
+    background-color: #d9534f;
+}
+
+/* Project card styles */
+.project-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .panel-body:hover {
+    background-color: #f9f9f9;
+}
+
+/* Prevent footer buttons from triggering card click */
+.panel-footer {
+    position: relative;
+    z-index: 10;
+}
+
+.panel-footer .btn {
+    position: relative;
+    z-index: 11;
+}
