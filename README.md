@@ -32,7 +32,7 @@ Este método usa Docker para executar tanto a aplicação quanto o banco de dado
 3. Execute a aplicação com: mvn spring-boot:run
 
 Isso iniciará automaticamente o container PostgreSQL usando Docker Compose.
-4. Acesse a aplicação em http://localhost:8084
+4. Acesse a aplicação em http://localhost:8084/home e para documentação da api http://localhost:8084/api/swagger-ui.html
 
 ### Opção 2: Usando Banco de Dados PostgreSQL Externo
 
